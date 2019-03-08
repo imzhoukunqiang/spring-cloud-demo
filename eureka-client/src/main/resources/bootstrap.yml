@@ -7,8 +7,6 @@ spring:
       profile: default
       label: master
 
-server:
-  port: 2001
 
 eureka:
   client:

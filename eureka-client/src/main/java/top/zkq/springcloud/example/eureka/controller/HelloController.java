@@ -19,12 +19,6 @@ public class HelloController {
     @Resource
     private DiscoveryClient discoveryClient;
 
-    @RequestMapping("/info")
-    public String info() {
-
-        return "this is Eureka Client ";
-    }
-
 
     @RequestMapping("/hello")
     public String name() {

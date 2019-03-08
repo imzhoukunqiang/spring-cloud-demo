@@ -1,5 +1,5 @@
 info:
-  profile: default
+  profile: dev
 
 spring:
   application:
